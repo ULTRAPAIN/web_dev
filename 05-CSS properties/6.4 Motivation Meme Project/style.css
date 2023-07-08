@@ -1,0 +1,22 @@
+html{
+    background-color: black;
+}
+
+
+
+div{
+    background-color: black;
+    color: white;
+    font-family: 'Caveat', cursive;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Libre Baskerville', serif;
+text-align: center;
+width: 50%;
+margin-left: 25%;
+margin-top: 25%;
+text-transform: capitalize;
+}
+img{
+    width:100%;
+    border:10px solid white
+}
