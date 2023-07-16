@@ -18,11 +18,14 @@
       color:white;
       border-radius: 5px;
       border: none;
+      text-align: center;
+      
     }
     .plan-title{
       font-size: 24px;
       font-weight: bold;
       margin-bottom: 10px;
+      text-align: center;
     }
     .plan-price{
       font-size: 48px;
@@ -34,23 +37,39 @@
       padding: 0px;
       margin: 0px;
     }
+ 
+    .pricing-container{
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      gap:2rem;
+
+    }
+
+    .pricing-plan{
+      flex: 1;
+      max-width: 400px;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+      background-color: #f2f2f2;
+    }
+  .plan-features li{
+    margin-bottom: 20px;
+  }
 
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
-     
-      .pricing-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        gap:10px;
-      }
-      .pricing-plan > *{
-        background-color: lightgray;
-        display: flex;
-        
+     .pricing-container{
+      flex-direction: column;
+      height: 100%;
+     }
+      
+
       }
       
-    }
+
    
   </style>
 </head>
